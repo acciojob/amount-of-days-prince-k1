@@ -10,9 +10,7 @@ function daysOfAYear(year) {
 		}
 		else{return 366}
 	}
-	else if(y % 4 != 0){alert(365)}
-	
-	
+	else if(y % 4 != 0){return 365}
 }
 
 let year = prompt();
